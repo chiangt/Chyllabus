@@ -1,0 +1,7 @@
+/home/tim/AndroidStudioProjects/Chyllabus/app/build/intermediates/classes/debug
+/home/tim/AndroidStudioProjects/Chyllabus/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-42ad8818b49b5fac5afecadc1fe3ca31c1c9676e.jar
+/home/tim/AndroidStudioProjects/Chyllabus/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-546349b0cf8d0b481d766acc4ab3b3f861c9f904.jar
+/home/tim/AndroidStudioProjects/Chyllabus/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-3517798346956ef6d8dbd1a96c5cbdd336846fcc.jar
+/home/tim/AndroidStudioProjects/Chyllabus/app/build/intermediates/pre-dexed/debug/classes-f3e0616d5393eb779a8988e6ac0e4469b2b2e754.jar
+/home/tim/AndroidStudioProjects/Chyllabus/app/build/intermediates/pre-dexed/debug/Parse-1.9.2-6da98949eac823d236b47c108fd84849902a3919.jar
+/home/tim/AndroidStudioProjects/Chyllabus/app/build/intermediates/pre-dexed/debug/classes-c9f0548866db0db989441520902b91c07fb577e2.jar

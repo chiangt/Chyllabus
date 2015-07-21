@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.tim.chyllabus.ClassPage"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutCourseInfo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textCourseCode"
+            android:text="@string/course_code"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/textCourseCode"
+            android:id="@+id/textCourseName"
+            android:gravity="center"
+            android:text="@string/course_name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/textCourseName"
+            android:text="@string/professor"
+            android:textColor="@color/white"
+            android:id="@+id/textProfessor" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/layoutCourseInfo">
+
+        <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/buttonDropClass"
+            android:id="@+id/pagerClasspage">
+
+            <android.support.v4.view.PagerTitleStrip
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_classpage"
+                android:background="@color/light_blue"
+                android:padding="8dp"
+                style="@style/viewpagertitlestrip">
+
+            </android.support.v4.view.PagerTitleStrip>
+
+        </android.support.v4.view.ViewPager>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/buttonDropClass"
+            android:text="@string/drop_class"
+            android:textColor="@color/white"
+            android:background="@color/dark_blue"/>
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/tim/AndroidStudioProjects/Chyllabus/app/src/main/res/layout/activity_class_page.xml -->

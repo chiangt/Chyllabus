@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.tim.chyllabus.Signup"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textRegister"
+        android:gravity="center"
+        android:text="@string/register_for_account"
+        android:textSize="25sp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textRegister"
+        android:layout_marginTop="40dp"
+        android:id="@+id/editEmailSignup"
+        android:hint="@string/email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/light_blue"
+        android:inputType="textEmailAddress"
+        android:maxLines="1" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editEmailSignup"
+        android:id="@+id/editPasswordSignup"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/light_blue"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editPasswordSignup"
+        android:id="@+id/editRetypeSignup"
+        android:hint="@string/retype_password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/light_blue"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editRetypeSignup"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editFirstNameSignup"
+        android:hint="@string/first_name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/light_blue"
+        android:inputType="textCapWords"
+        android:maxLines="1" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editFirstNameSignup"
+        android:id="@+id/editLastNameSignup"
+        android:hint="@string/last_name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/light_blue"
+        android:inputType="textCapWords"
+        android:maxLines="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editLastNameSignup"
+        android:id="@+id/buttonAlreadyHaveAccount"
+        android:text="@string/already_have_account"
+        android:textColor="@color/light_blue"
+        android:background="#00000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/buttonSignup"
+        android:padding="20dp"
+        android:id="@+id/textAgreement"
+        android:gravity="center"
+        android:text="@string/agreement"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonSignup"
+        android:text="@string/signup"
+        android:textColor="@color/white"
+        android:background="@color/dark_blue" />
+
+</RelativeLayout>

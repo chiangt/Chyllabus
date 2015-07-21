@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chyllabus</string>
+    <string name="app_name_lowercase">Chyllabus</string>
+    <string name="app_name_uppercase">CHYLLABUS</string>
+    <string name="parse_app_id">k4NDsyLC2hygujXH6lMKEnLal40s1F7qRk8HqgLU</string>
+    <string name="parse_client_key">6d5f1exWUwT4geSIwtpSOHXJeWqoF4KKKFFtSRzl</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="register_for_account">Register for an account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="retype_password">Re-type password</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="agreement">By signing up, I agree to the User Agreement, Privacy Agreement, and Cookie Agreement.</string>
+    <string name="warning_mandatory_field">Mandatory field. Cannot be left blank</string>
+    <string name="warning_mismatched_passwords">Passwords do not match. Please recheck</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="first_last">Firstname Lastname</string>
+    <string name="university">Your University or College</string>
+    <string name="class_year">Your Class Year</string>
+    <string name="major">Major: </string>
+    <string name="majors">Majors: </string>
+    <string name="your_major">Your major(s)</string>
+    <string name="classes">Classes: </string>
+    <string name="empty_class_list">You are not currently enrolled in any classes. Go to the Classes tab to enroll! \n</string>
+    <string name="bio">About: </string>
+    <string name="empty_bio">Tell us about yourself. Or write something witty for your Classmates to see.</string>
+    <string name="logout">Log out</string>
+    <string name="course_code">Course Code</string>
+    <string name="course_name">Course Name</string>
+    <string name="professor">Professor</string>
+    <string name="drop_class">Drop Class</string>
+    <string name="add_classes">Add classes from the list below:</string>
+    <string name="add_class">Add class(s)</string>
+    <string name="dont_see_class">Don\'t see your class? Request it</string>
+    <string name="new_convo">Create New Message</string>
+    <string name="choose_recipients">Choose recipients from the list below:</string>
+    <string name="start_new_convo">Start Conversation</string>
+    <string name="message">Message</string>
+
+    <string name="their_university">Their University or College</string>
+    <string name="their_class_year">Their Class Year</string>
+    <string name="their_major">Their major(s)</string>
+    <string name="too_cool_for_bio">This student is too cool to write a quick biography.</string>
+    <string name="this_person_not_enrolled">This student is not enrolled in any classes.</string>
+    <string name="add_classmate">Add classmate</string>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light_blue">#ff45c8ff</color>
+    <color name="dark_blue">#ff2c7dff</color>
+    <color name="gray">#ff7b7b7b</color>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_launch">Launch</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_userpage">Userpage</string>
+    <string name="title_activity_class_page">ClassPage</string>
+    <string name="title_activity_add_class">AddClass</string>
+    <string name="title_activity_new_message">NewMessage</string>
+    <string name="title_activity_classmates">Classmates</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="title_activity_profile">Profile</string>
+
+</resources>

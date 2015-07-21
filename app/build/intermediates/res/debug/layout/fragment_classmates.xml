@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Classmates fragment2. Coming soon"
+        android:textColor="@color/white"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:id="@+id/layoutClassmates"
+        android:stretchColumns="*">
+
+    </TableLayout>
+
+</RelativeLayout><!-- From: file:/home/tim/AndroidStudioProjects/Chyllabus/app/src/main/res/layout/fragment_classmates.xml -->

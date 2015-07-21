@@ -1,0 +1,16 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/pagerUserpage">
+
+    <android.support.v4.view.PagerTitleStrip
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_userpage"
+        android:background="@color/light_blue"
+        android:padding="8dp"
+        style="@style/viewpagertitlestrip">
+
+    </android.support.v4.view.PagerTitleStrip>
+
+</android.support.v4.view.ViewPager><!-- From: file:/home/tim/AndroidStudioProjects/Chyllabus/app/src/main/res/layout/activity_userpage.xml -->

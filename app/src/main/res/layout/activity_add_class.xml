@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.tim.chyllabus.AddClass"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/layoutTextAddClassesFromList">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="25dp"
+            android:gravity="center"
+            android:text="@string/add_classes"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_below="@+id/layoutTextAddClassesFromList"
+        android:orientation="vertical">
+
+        <ListView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:padding="15dp"
+            android:layout_above="@+id/buttonAddClass"
+            android:id="@+id/listviewCourses">
+
+        </ListView>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonDontSeeClass"
+            android:id="@+id/buttonAddClass"
+            android:text="@string/add_class"
+            android:textColor="@color/gray"
+            android:background="@color/light_blue" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/buttonDontSeeClass"
+            android:text="@string/dont_see_class"
+            android:textColor="@color/white"
+            android:background="@color/dark_blue" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
